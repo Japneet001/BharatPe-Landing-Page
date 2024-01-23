@@ -1,4 +1,7 @@
 body{
+    /* background: url(./assests/background.jpg) no-repeat; */
+
+    /* opacity: 0.5; */
     font-size: 15px;
     line-height: 27px;
     font-weight: 400;
@@ -8,11 +11,6 @@ body{
     padding: 0px;
     /* border: 0px; */
     /* vertical-align: baseline; */
-}
-
-hr{
-    /* height: .25px; */
-    border: 0.25px solid #707070;
 }
 
 .text-center{
@@ -90,7 +88,57 @@ hr{
 
 
 .section1{
-
+    /* margin: 0px;
+    padding: 0px; */
+    vertical-align: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slides-content{
+    /* margin-top: 100px; */
+    padding: 20px 10px 20px 200px;
+    width: 50%;
+    justify-content: space-around;
+}
+.slides-heading{
+    color: #1C1C1C;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.slides-heading h1{
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0px 0px 15px 0px;
+    padding: 80px 0px 0px 0px;
+}
+.blue{
+    color: #2B7BFF;
+    font-size: 48px;
+}
+.slides-text{
+    color: #707070;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 20px 0px;
+}
+.section1-download{}
+.section1-download h4{
+    padding: 0px 0px 15px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #999999;
+}
+.section1-download-image{}
+.slides-images{
+    margin-top: 100px;
+    padding: 20px 10px;
+    width: 50%;
+}
+.slide-image{
+    width: 398.8px;
+    height: 398.8px;
+    border-radius: 30px;
 }
 
 
@@ -161,6 +209,8 @@ hr{
 
 .section3{
     z-index: 1;
+    padding: 64px;
+    position: relative;
 }
 .section3-heading{
     font-size: 24px;
@@ -173,7 +223,34 @@ hr{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #1C1C1C;
 }
-
+.section3-slides{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section3-slides-images{}
+.section3-img{
+    width: 340.9px;
+    height: 237.94px;
+    border-radius: 10px;
+}
+.section3-slides-text{
+    padding: 10px 50px 10px 20px;
+    width: 50%;
+}
+.section3-slides-text h4{
+    color: #1C1C1C;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    margin: 16px 0px;
+}
+.section3-slides-text p{
+    font-size: 16px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 16px 0px;
+    margin: 0px;
+    color: #1C1C1C;
+}
 
 
 .section4{}
@@ -399,6 +476,10 @@ hr{
 .fa-brands{
     color: #707070;
     font-size: 25px;
+}
+
+.fa-brands:hover{
+    color: #0483F9;
 }
 
 .fa-twitter{
