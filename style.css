@@ -261,6 +261,90 @@ body{
     color: #1C1C1C;
 }
 .merchant-offering-content{}
+/* .merchant-offering-buttons{
+    margin: 48px 392.167px 32px;
+    padding: 20px 0px;
+}
+.merchant-offering-link{
+    text-decoration: none;
+}
+.merchant-offering-pay-button{
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    background: #2B7BFF;
+    border: none;
+    padding: 10px 20px;
+}
+.merchant-offering-bank-button{
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #3C3C3B;
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.merchant-offering-lend-button{
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: #3C3C3B;
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+} */
+
+.toggle-buttons{
+    max-width: 395px;
+    margin: 48px auto 32px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 0px;
+    box-shadow: 2px 1px 2px 2px #0000001A;
+}
+.toggle-buttons a{
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: .625px;
+    text-transform: uppercase;
+    color: #3C3C3B;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#active{
+    color: #FFFFFF;
+    cursor: default;
+    background: #2B7BFF;
+    border-radius: 10px;
+}
+.merchant-offering-slides{
+    display: flex;
+}
+.slide1{
+    padding: 3% 5%;
+    margin: 0px 0%;
+    min-height: 295px;
+}
+.slide1-content{}
+.merchant-offering-slide-heading{}
+.merchant-offering-slide-heading{}
+.merchant-offering-slide-text{}
+.merchant-offering-slide-link{}
+.slide2{}
+.slide2-content{}
 
 
 .section5{}
@@ -314,7 +398,9 @@ body{
     margin: 0px 12px 40px;
     text-align: center;
 }
-.view-more-link{}
+.view-more-link{
+    text-decoration: none;
+}
 .view-more-button{
     color: #2B7BFF;
     background: #FFFFFF;
