@@ -1,7 +1,4 @@
 body{
-    /* background: url(./assests/background.jpg) no-repeat; */
-
-    /* opacity: 0.5; */
     font-size: 15px;
     line-height: 27px;
     font-weight: 400;
@@ -9,14 +6,12 @@ body{
     color: #8B97AA;
     margin: 0px;
     padding: 0px;
-    /* border: 0px; */
-    /* vertical-align: baseline; */
 }
 
 .text-center{
     text-align: center;
 }
-.header{}
+
 .nav{
     position: fixed;
     background-color: #FFFFFF;
@@ -26,48 +21,48 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* font-size: 16px;
-    font-weight: 400; */
     box-sizing: border-box;
     box-shadow: 0px 2px 2px #0000001A;
     border-bottom: solid 1px #CCCCCC;
     padding: 0px 20px;
     height: 60px;
-    /* border: 0px 0px 0.667px 0px; */
-    /* position: 0px 0px 270.667px 0px; */
-
 }
+
 .nav-logo{
     padding: 5px 0px;
 }
+
 .nav-logo-image{
     width: 142px;
     height: 32px;
 }
+
 .nav-content{
     color: #8B97AA;
 }
+
 .nav-content-link{
     display: flex;
     list-style: none;
 }
+
 .nav-link{
     padding: 30px 20px;
     text-decoration: none;
     font-weight: 1000;
     font-size: 14px;
-    /* background: #F5F7FA; */
     color: #010101;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+
 .nav-link:hover{
     color: #0483F9;
-    /* background: #F5F7FA; */
 }
+
 .nav-login-button{
     padding: 0px 20px;
 }
-.login-button-link{}
+
 .login-button{
     margin: 0px 0px 0px 5px;
     padding: 10px 8px;
@@ -81,67 +76,67 @@ body{
     text-transform: uppercase;
     align-items: center;
 }
-.fa-solid{}
+
 .fa-user{
     color: #2B7BFF;
 }
 
-
 .section1{
-    /* margin: 0px;
-    padding: 0px; */
     vertical-align: baseline;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .slides-content{
-    /* margin-top: 100px; */
     padding: 20px 10px 20px 200px;
     width: 50%;
     justify-content: space-around;
 }
+
 .slides-heading{
     color: #1C1C1C;
     font-family: 'Poppins';
     font-weight: bold;
 }
+
 .slides-heading h1{
     font-size: 48px;
     line-height: 58px;
     margin: 0px 0px 15px 0px;
     padding: 80px 0px 0px 0px;
 }
+
 .blue{
     color: #2B7BFF;
     font-size: 48px;
 }
+
 .slides-text{
     color: #707070;
     font-size: 16px;
     font-family: 'Poppins';
     padding: 20px 0px;
 }
-.section1-download{}
+
 .section1-download h4{
     padding: 0px 0px 15px;
     font-size: 14px;
     font-family: 'Poppins';
     color: #999999;
 }
-.section1-download-image{}
+
 .slides-images{
     margin-top: 100px;
     padding: 20px 10px;
     width: 50%;
 }
+
 .slide-image{
     width: 398.8px;
     height: 398.8px;
     border-radius: 30px;
 }
-
-
 
 .section2{
     background-color: #1C1C1C;
@@ -149,15 +144,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 472px; */
     margin: 0px;
     padding: 20px 0px;
     border: 0px;
     vertical-align: baseline;
 }
-.section2-content{
-    /* margin: 0px auto; */
-}
+
 .section2-heading{
     color: #FFFFFF;
     font-size: 36px;
@@ -165,78 +157,89 @@ body{
     font-weight: bolder;
     margin: 0px 12px;
 }
+
 .section2-counter-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
 }
+
 .section2-counter{
     padding: 48px 20px 0px;
 }
+
 .section2-counter-image{
     width: 160px;
     height: 160px;
     margin: 0px 0px 15px;
 }
+
 .image-description{
     margin: 0px 0px 5px;
     font-weight: bold;
 }
+
 .prefix{
     color: #FFFFFF;
     font-size: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+
 .number{
     color: #FFFFFF;
     font-size: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     padding: 0px 0px 0px 3px;
 }
+
 .postfix{
     color: #FFFFFF;
     font-size: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
+
 .section2-description{
     color: #FFFFFF;
     font-size: 16px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
-
-
 .section3{
     z-index: 1;
     padding: 64px;
     position: relative;
 }
+
 .section3-heading{
     font-size: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #1C1C1C;
 }
+
 .section3-content{
     margin: 16px 0px;
     font-size: 16px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #1C1C1C;
 }
+
 .section3-slides{
     display: flex;
     justify-content: space-evenly;
 }
-.section3-slides-images{}
+
 .section3-img{
     width: 340.9px;
     height: 237.94px;
     border-radius: 10px;
 }
+
 .section3-slides-text{
     padding: 10px 50px 10px 20px;
     width: 50%;
 }
+
 .section3-slides-text h4{
     color: #1C1C1C;
     font-size: 20px;
@@ -244,6 +247,7 @@ body{
     font-weight: bolder;
     margin: 16px 0px;
 }
+
 .section3-slides-text p{
     font-size: 16px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -252,54 +256,17 @@ body{
     color: #1C1C1C;
 }
 
-
-.section4{}
 .merchant-offering-heading{
     font-size: 36px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 1000;
     color: #1C1C1C;
 }
-.merchant-offering-content{}
-/* .merchant-offering-buttons{
-    margin: 48px 392.167px 32px;
-    padding: 20px 0px;
+
+.merchant-offering-content{
+    width: 100%;
+    height: 100%;
 }
-.merchant-offering-link{
-    text-decoration: none;
-}
-.merchant-offering-pay-button{
-    border-radius: 10px;
-    font-weight: 1000;
-    font-size: 15px;
-    font-family: 'Poppins';
-    color: #FFFFFF;
-    background: #2B7BFF;
-    border: none;
-    padding: 10px 20px;
-}
-.merchant-offering-bank-button{
-    border-radius: 10px;
-    font-weight: 1000;
-    font-size: 15px;
-    font-family: 'Poppins';
-    color: #3C3C3B;
-    background: #FFFFFF;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-.merchant-offering-lend-button{
-    cursor: pointer;
-    border-radius: 10px;
-    font-weight: 1000;
-    font-size: 15px;
-    font-family: 'Poppins';
-    color: #3C3C3B;
-    background: #FFFFFF;
-    border: none;
-    padding: 10px 20px;
-} */
 
 .toggle-buttons{
     max-width: 395px;
@@ -310,6 +277,7 @@ body{
     padding: 20px 0px;
     box-shadow: 2px 1px 2px 2px #0000001A;
 }
+
 .toggle-buttons a{
     cursor: pointer;
     font-family: 'Poppins';
@@ -324,62 +292,213 @@ body{
     padding: 10px 20px;
     text-decoration: none;
 }
+
 #active{
     color: #FFFFFF;
     cursor: default;
     background: #2B7BFF;
     border-radius: 10px;
 }
+
 .merchant-offering-slides{
     display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
 }
+
 .slide1{
-    padding: 3% 5%;
-    margin: 0px 0%;
-    min-height: 295px;
+    background: #FFFFFF;
+    border: 0px solid #000000;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 16px;
+    width: 530.7px;
+    height: 434.71px;
 }
-.slide1-content{}
-.merchant-offering-slide-heading{}
-.merchant-offering-slide-heading{}
-.merchant-offering-slide-text{}
-.merchant-offering-slide-link{}
-.slide2{}
-.slide2-content{}
 
+.slide1-content{
+    box-shadow: -20px 0px 15px rgba(0,0,0,0.03), 0px 8px 15px 0px rgba(0,0,0,0.06), 0 12px 16px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    text-align: center;
+    padding: 16px;
+    background: #fff;
+}
 
-.section5{}
+.merchant-offering-slide-image{
+    width: 498.7px;
+    height: 228.38px;
+    border-radius: 10px;
+}
+
+.merchant-offering-slide-heading{
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #1C1C1C;
+    padding: 20px 0px 0px;
+    margin: 0px;
+}
+
+.merchant-offering-slide-text{
+    font-size: 16px;
+    font-family: 'Poppins';
+    margin: 16px 20px;
+    color: #707070;
+}
+
+.slide1-content a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B7BFF;
+    background: url(http://test-website.bharatpe.io/wp-content/uploads/2022/09/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.slide2{
+    background: #FFFFFF;
+    border: 0px solid #000000;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 16px;
+    width: 530.7px;
+    height: 434.71px;
+}
+
+.slide2-content{
+    box-shadow: -20px 0px 15px rgba(0,0,0,0.03), 0px 8px 15px 0px rgba(0,0,0,0.06), 0 12px 16px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    text-align: center;
+    padding: 16px;
+    background: #fff;
+}
+
+.slide2-content a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B7BFF;
+    background: url(http://test-website.bharatpe.io/wp-content/uploads/2022/09/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
 .consumer-offering-heading{
     font-size: 36px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 1000;
     color: #1C1C1C;
 }
-.consumer-offering-content{}
+
+.consumer-offering-content{
+    margin: 0px 100px;
+}
+
+.section5-slide1{
+    display: flex;
+}
+
+.section5-img{
+    width: 381.6px;
+    height: 381.6px;
+}
+
+.section5-slides-text{
+    padding: 0px 50px;
+}
+
+.postpe-img-container p{
+    padding: 16px 0px;
+    margin: 0px;
+}
+
+.postpe-img{
+    width: 216px;
+    height: 48.76px;
+}
+
+.postpe-img-container h3{
+    margin: 0px 0px 15px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #1C1C1C;
+}
+
+.pro-feature{
+    display: flex;
+}
+
+.pro-feature-img{
+    width: 64.99px;
+    height: 64.99px;
+}
+
+.pro-feature-description{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .15px;
+    color: #1C1C1C;
+    margin: 0px;
+}
+
+.pro-feature a{
+    margin: 20px 0px;
+    text-transform: uppercase;
+    background: url(http://test-website.bharatpe.io/wp-content/uploads/2022/09/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 2px 15px 2px 5px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #2B7BFF;
+    text-decoration: none;
+}
 
 .section6{
     margin: 100px;
 }
+
 .merchant-stories-heading{
     font-size: 36px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 1000;
     color: #1C1C1C;
 }
-.merchant-stories-content{}
+
 .merchant-stories-text{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .video-msg{
     margin: 0px 12px 40px;
     height: 240px;
     width: 240px;
 }
+
 .video-msg-poster{
     border-radius: 50%;
 }
-.video-msg-content{}
+
 .video-msg-content h4{
     font-size: 24px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -387,6 +506,7 @@ body{
     font-weight: 1000;
     margin: 12px 0px 10px;
 }
+
 .video-msg-content p{
     margin: 0px 0px 10px;
     color: #707070;
@@ -394,13 +514,16 @@ body{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
+
 .view-more{
-    margin: 0px 12px 40px;
+    margin: 40px 12px 40px;
     text-align: center;
 }
+
 .view-more-link{
     text-decoration: none;
 }
+
 .view-more-button{
     color: #2B7BFF;
     background: #FFFFFF;
@@ -417,7 +540,6 @@ body{
     background: #2B7BFF;
 }
 
-.section7{}
 .recent-news-heading{
     font-size: 36px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -425,80 +547,147 @@ body{
     color: #1C1C1C;
 }
 
+.recent-news-content span{
+    font-size: 15px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #A8A8A8;
+}
 
+.recent-news-text{
+    display: flex;
+}
+
+.card{
+    padding: 10px 15px;
+    margin: 0px 13.75px 20px;
+    box-shadow: 0 2px 8px 1px rgba(0,0,0,0.16);
+    border-radius: 8px;
+    min-height: 190px;
+    border: 1px solid rgba(232,232,232,0.54);
+    opacity: 1!important;
+    transform: inherit!important;
+    width: 31.33%;
+}
+
+.card-content{
+    padding: 20px 0px 0px;
+}
+
+.card-heading{
+    color: #23233e;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-para{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #8B97AA;
+}
+
+.read-more{
+    vertical-align: bottom;
+}
+
+.card-link{
+    margin:40px 0px;
+    text-transform: uppercase;
+    background: url(http://test-website.bharatpe.io/wp-content/uploads/2022/09/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 2px 15px 2px 0px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #2B7BFF;
+    text-decoration: none;
+    position: relative;
+}
 
 .footer{
     background-color: #1C1C1C;
 }
+
 .footer1{
     padding: 64px 30px 16px;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
-    /* box-shadow: 0px 2px 2px #0000001A; */
     border-bottom: solid 0.5px #3A3838;
 }
+
 .col{
     width: 40%;
 }
+
 .fourcol{
     font-family: 'Poppins';
 }
-.foot-logo{}
+
 .foot-logo-image{
     width: 160px;
     height: 44px;
 }
+
 .foot-description{
     color: #CCCCCC;
     padding: 32px 20px 32px 8px;
     font-size: 14px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-.foot-download{}
+
 .foot-download h4{
     color: #FFFFFF;
     font-size: 14px;
     font-family: 'Poppins';
     margin: 0px 0px 15px;
-
 }
-.foot-download-image{}
+
 .footer1-text{
     justify-content: space-between;
 }
+
 .general{
     color: #FFFFFF;
 }
+
 .general h4{
     margin: 0px 0px 15px;
     font-size: 14px;
 }
+
 .foot-list{
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
+
 .foot-list-link{
     text-decoration: none;
     color: #D0D0D0;
     font-size: 12px;
     margin: 0px 10px 0px 0px;
 }
+
 .legal{
     color: #FFFFFF;    
 }
+
 .legal h4{
     margin: 0px 0px 15px;
     font-size: 14px;
 }
+
 .topspacing h4{
     padding: 20px 0px 0px;
     font-size: 14px;
 }
+
 .resources{
     color: #FFFFFF;
 }
+
 .resources h4{
     margin: 0px 0px 15px;
     font-size: 14px;
@@ -507,13 +696,16 @@ body{
 .corporate-governance{
     color: #FFFFFF;
 }
+
 .corporate-governance h4{
     margin: 0px 0px 15px;
     font-size: 14px;
 }
+
 .merchant-offerings{
     color: #FFFFFF;
 }
+
 .merchant-offerings h4{
     margin: 0px 0px 15px;
     font-size: 14px;
@@ -523,18 +715,17 @@ body{
     padding: 32px;
     border-bottom: solid 0.5px #3A3838;
 }
+
 .footer2-list{
     display: flex;
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-.footer2-list-items{}
 
 .footer2-logos{
     padding: 16px;
 }
-.footer2-logos-images{}
 
 .footer3{
     margin: 0px;
@@ -543,7 +734,6 @@ body{
     justify-content: space-between;
     display: flex;
 }
-.text-right{}
 
 .footer3-icons{
     margin: 0px 20px 0px 0px;
